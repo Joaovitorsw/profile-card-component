@@ -5,3 +5,14 @@
   --neutral-color: hsl(0, 0%, 59%);
   --white-color: white;
 }
+
+body {
+  padding: 20px;
+  background-color: var(--primary-color);
+  background-image: url(images/bg-pattern-bottom.svg),
+    url(images/bg-pattern-top.svg);
+  background-position: 25vh 60vh, -15vh -15vh;
+  background-size: 350px, 300px;
+  background-repeat: no-repeat;
+  font-family: "Kumbh Sans", sans-serif;
+}
