@@ -16,3 +16,29 @@ body {
   background-repeat: no-repeat;
   font-family: "Kumbh Sans", sans-serif;
 }
+
+.card {
+  position: relative;
+  transform: translateY(30%);
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  border-radius: 15px;
+  position: relative;
+  max-width: 334px;
+  background-color: var(--white-color);
+}
+.background-card {
+  max-width: 334px;
+  height: min-content;
+  border-radius: 15px 15px 0px 0px;
+}
+.user-image {
+  position: relative;
+  border-radius: 50%;
+  width: min-content;
+  height: min-content;
+  align-self: center;
+  border: 5px solid var(--white-color);
+  transform: translateY(-50%);
+}
