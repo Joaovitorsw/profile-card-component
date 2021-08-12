@@ -42,3 +42,50 @@ body {
   border: 5px solid var(--white-color);
   transform: translateY(-50%);
 }
+.user-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  transform: translateY(-80%);
+}
+.user-name {
+  font-weight: 700;
+  font-size: 18px;
+}
+.user-age {
+  margin-left: 5px;
+  font-weight: 400;
+  color: var(--tertiary-color);
+}
+.user-country {
+  margin-top: 10px;
+  color: var(--neutral-color);
+}
+
+.profile-info {
+  padding: 20px 40px;
+  display: flex;
+  height: min-content;
+  justify-content: space-between;
+}
+
+.profile-follows,
+.profile-likes,
+.profile-phothos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.profile-follows span,
+.profile-likes span,
+.profile-phothos span {
+  font-weight: 400;
+  font-size: 14px;
+  margin-top: 10px;
+  letter-spacing: 2px;
+  color: var(--neutral-color);
+}
