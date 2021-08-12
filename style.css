@@ -89,3 +89,13 @@ body {
   letter-spacing: 2px;
   color: var(--neutral-color);
 }
+
+@media screen and (min-width: 450px) {
+  body {
+    background-image: url(images/bg-pattern-bottom.svg),
+      url(images/bg-pattern-top.svg);
+    background-position: 40vh 45vh, -10vh -35vw;
+    background-size: 100vw, 70vw;
+    background-repeat: no-repeat;
+  }
+}
