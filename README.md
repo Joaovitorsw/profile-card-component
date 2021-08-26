@@ -81,15 +81,17 @@ Minha versão da aplicação proposta pelo [Frontend Mentor](https://www.fronten
 |  :page_facing_up:  |
 | :----------------: |
 |    Mobile First    |
-|  Background Image  |
-|      Position      |
 |     HTML Class     |
 |     CSS Class      |
+|      Position      |
+|  Background Image  |
 |  Pseudo Selectors  |
 |   CSS Box Model    |
 |  Size Properties   |
 |      Flexbox       |
 |     MediaQuery     |
+|    Atomic Comit    |
+
 
 
 </div>
